@@ -1,0 +1,12 @@
+.img-story{
+    width: 40%;
+    height: 40%;
+    
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Times, Times New Roman, serif;
+}
