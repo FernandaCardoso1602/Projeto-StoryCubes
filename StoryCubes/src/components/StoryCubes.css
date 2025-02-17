@@ -1,36 +1,35 @@
-.bemvindo{
-    color: rgb(119, 58, 150);
-    font-size: 400%;
+.container-texto {
+    font-size: 199%;
     display: flex;
     justify-content: center;
-    text-align: center;
-    padding: 10%;
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: normal;
-}
-.explicacao{
-    font-size: 200%;
-    display: flex;
-    justify-content: center;
+    align-items: center;
     text-align: center;
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: normal;
-    color: rgb(31, 58, 97);
-    margin: 2%;
+    color: rgb(18, 49, 30);
+    padding-bottom: 5px;  /* Reduz o espaço entre o título e o botão */
 }
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;  /* Mantém o botão próximo ao título */
+}
+
 .Sorteio{
    font-size: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
-   font-family: "Merriweather", serif;
+   font-family: 'Playfair Display', serif;
    font-weight: 600;
    font-style: normal;
-   color: rgb(40, 71, 114);
-   background-color: rgb(223, 196, 236);
-   border-radius: 10px 0 10px 0;
+   color: rgb(255, 255, 255);
+   background-color: #122620c2;
+   border-radius: 10px;
+   border-color:  #122620;
    width: 40%;
    height: 40px;
    
@@ -44,3 +43,62 @@
 .icones{
     display: flex;
 }
+
+.img-story {
+    width: 150px;  /* Ajuste conforme necessário */
+    height: auto;  /* Mantém a proporção da imagem */
+}
+
+.container-header {
+    display: flex;
+    align-items: center;  /* Alinha imagem e texto verticalmente */
+    justify-content: center;  /* Centraliza na horizontal */
+    gap: 15px;  /* Espaçamento entre a imagem e o texto */
+}
+
+.story-text {
+    font-size: 150%;  /* Ajuste conforme necessário */
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: rgb(18, 49, 30);
+    text-align: left;  /* Garante que o texto fique alinhado à esquerda */
+}
+
+.historia-input {
+    width: 80%;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+    font-size: 15px;
+    font-family: "Merriweather", serif;
+    padding: 10px;
+    border: 2px solid rgb(18, 49, 30);
+    border-radius: 10px;
+    resize: none;
+}
+
+.historia-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+}
+
+.historia-container h3 {
+    color: rgb(18, 49, 30);
+    text-align: center;
+}
+
+.emoji-display {
+    font-size: 200%;  /* Mesmo tamanho da classe .container-texto */
+    display: flex;
+    justify-content: center;
+    color: rgb(18, 49, 30);
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
