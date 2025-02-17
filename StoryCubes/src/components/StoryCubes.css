@@ -1,0 +1,46 @@
+.bemvindo{
+    color: rgb(119, 58, 150);
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.explicacao{
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(31, 58, 97);
+    margin: 2%;
+}
+.Sorteio{
+   font-size: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Merriweather", serif;
+   font-weight: 600;
+   font-style: normal;
+   color: rgb(40, 71, 114);
+   background-color: rgb(223, 196, 236);
+   border-radius: 10px 0 10px 0;
+   width: 40%;
+   height: 40px;
+   
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+.icones{
+    display: flex;
+}
